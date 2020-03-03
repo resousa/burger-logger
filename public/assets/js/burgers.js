@@ -23,7 +23,7 @@ $(function() {
       burger_type: $('#ca')
         .val()
         .trim(),
-      ate: $('[name=sleepy]:checked')
+      ate: $('[name=ate]:checked')
         .val()
         .trim()
     };
