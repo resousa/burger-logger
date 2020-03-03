@@ -16,7 +16,7 @@ $(function() {
     });
   });
 
-  $('.form-group').on('submit', function(event) {
+  $('.create-form').on('submit', function(event) {
     event.preventDefault();
 
     const newBurger = {
